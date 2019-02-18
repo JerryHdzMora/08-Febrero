@@ -1,0 +1,4 @@
+syms x a
+z=2*x+a-5
+solm = solve(z == 0, x);
+solm
