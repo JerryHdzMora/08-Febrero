@@ -1,0 +1,4 @@
+syms x a b
+y=x^2+a*x+b;
+soln = solve(y == 0, x);
+soln
